@@ -1,0 +1,13 @@
+plugins {
+    id 'groovy'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.5'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.8.0-beta4'
+    implementation(fileTree("lib"))
+}

@@ -1,0 +1,1 @@
+docker run --name=openhab3 -i -t -d -e TERM=xterm -p 18080:8080 -p 1883:1883 --device=/dev/ttyACM0 -v /home/vova/programs/openhab3/docker/exchange:/exchange  ubuntu_ru_img
